@@ -3,7 +3,7 @@ import {AuthResponse} from "../models/response/AuthResponse";
 import {store} from "../index";
 import {IUser} from "../models/IUser";
 
-export const API_URL = `https://asfasfasfasfasf-8xws.onrender.com/`
+export const API_URL = `https://asfasfasfasfasf-8xws.onrender.com/api`
 
 const $api = axios.create({
     withCredentials: true,
